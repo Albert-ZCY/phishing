@@ -1,0 +1,90 @@
+body {
+    background-image: url(/static/wechat-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    vertical-align: middle;
+    width: 36px;
+    height: 28px;
+    background-image: url(/static/wechat-logo.png);
+    background-repeat: no-repeat;
+    background-position: -196px -210px;
+    background-size: 487px 462px;
+    top: 6%;
+    left: 3%;
+}
+
+.login {
+    display: table;
+    margin: 16% auto;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    padding: 20px 5px 10px 5px;
+    border-radius: 5px;
+
+}
+
+.login input[type=text] {
+    margin: 30px 20px 15px 45px;
+    display: block;
+    width: 300px;
+    height: 35px;
+    outline-style: none;
+    border-width: 2px;
+    border-color: #D6D6D6;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.login input[type=text]:focus {
+    border-color: #9FD3FF;
+}
+
+.login input[type=submit] {
+    margin: 30px 20px 15px 45px;
+    display: block;
+    width: 310px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: #1AAD19;
+    color: white;
+}
+
+.lang {
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+}
+
+.lang-item {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    color: #D3D3D3;
+    font-size: 13px;
+}
+
+.sep {
+    float: left;
+    margin: 10px 0px 10px 0px;
+    color: #D3D3D3;
+    font-size: 13px;
+}
+
+.desc {
+    position: absolute;
+    right: 3%;
+    margin: 10px 20px 10px 20px;
+    bottom: 5%;
+    color: #D3D3D3;
+    font-size: 13px;
+}

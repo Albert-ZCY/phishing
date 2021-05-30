@@ -1,0 +1,88 @@
+body {
+    background-image: url(/static/qq-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    width: 251px;
+    height: 98px;
+    background-image: url(/static/qq-logo.png);
+    background-repeat: no-repeat;
+    top: 8%;
+    left: 23%;
+}
+
+.login {
+    display: table;
+    position: absolute;
+    top: 22%;
+    right: 28%;
+    width: 400px;
+    height: 250px;
+    background-color: white;
+    padding: 20px 5px 10px 5px;
+    border-radius: 5px;
+}
+
+.login input[type=text] {
+    margin: 30px 20px 15px 45px;
+    display: block;
+    width: 300px;
+    height: 35px;
+    outline-style: none;
+    border-width: 2px;
+    border-color: #D6D6D6;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.login input[type=text]:focus {
+    border-color: #9FD3FF;
+}
+
+.login input[type=submit] {
+    margin: 30px 20px 15px 45px;
+    display: block;
+    width: 310px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 5px;
+    font-size: 15px;
+    background-color: #1AAD19;
+    color: white;
+}
+
+.lang {
+    position: absolute;
+    left: 20%;
+    bottom: 5%;
+}
+
+.lang-item {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    color: #D3D3D3;
+    font-size: 13px;
+}
+
+.sep {
+    float: left;
+    margin: 10px 0px 10px 0px;
+    color: #D3D3D3;
+    font-size: 13px;
+}
+
+.desc {
+    position: absolute;
+    right: 20%;
+    margin: 10px 20px 10px 20px;
+    bottom: 5%;
+    color: #D3D3D3;
+    font-size: 13px;
+}
